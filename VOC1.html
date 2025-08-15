@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srihita Kotagiri - Portfolio</title>
+    <style>
+        /* Reset & Fonts */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: #f5faff; /* Light pastel blue background */
+            color: #2a3d4f;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #a8c5e5, #dce9f8);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            color: #1a2b3c;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #3f5d77;
+        }
+
+        section {
+            background: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            border-left: 5px solid #a8c5e5;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            color: #1a2b3c;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #3a6ea5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .contact-links a {
+            margin-right: 15px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 10px;
+        }
+
+        .skill-card {
+            background: #eef6fb;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Srihita Kotagiri</h1>
+        <p>Computer Science Undergraduate | Problem Solver | Aspiring Software Developer</p>
+        <p>Visakhapatnam, Andhra Pradesh</p>
+    </header>
+
+    <!-- About Me -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Passionate Computer Science undergraduate at GITAM University with a strong foundation in programming and data analysis. 
+            Experienced in problem-solving through coding challenges and algorithm design. 
+            Effective communicator with leadership experience, eager to gain practical exposure through internships and collaborative projects.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">C Programming</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Data Analysis (NumPy, Pandas)</div>
+            <div class="skill-card">Networking (Cisco Packet Tracer)</div>
+            <div class="skill-card">Problem Solving</div>
+            <div class="skill-card">Algorithm Design</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Credit Card Validator</h3>
+            <p>Python program implementing the Luhn algorithm for credit card validation, with prefix checks for card type detection.</p>
+        </div>
+        <div class="project">
+            <h3>21 Days of Coding Challenge</h3>
+            <p>Completed intensive coding challenge solving advanced algorithmic problems including DFS, Backtracking, and LeetCode Hard problems.</p>
+        </div>
+        <div class="project">
+            <h3>Online Auction System</h3>
+            <p>Java-based system for online auctions with OOP principles, bid tracking, and fair bidding validations.</p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+        <h2>Experience</h2>
+        <p><strong>Public Relations Co-Lead</strong> — GDG on Campus, GITAM (Oct 2024 - Present)</p>
+        <ul>
+            <li>Led public relations strategies and external partnerships.</li>
+            <li>Organized tech events and workshops to promote technology education.</li>
+            <li>Fostered community engagement for students.</li>
+        </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>Mastering Data Analysis with Pandas — Coursera</li>
+            <li>Python for Data Science, AI & Development — IBM</li>
+            <li>Exploring Networking with Cisco Packet Tracer — Cisco Networking Academy</li>
+            <li>Pep Sales Star Workshop — PepsiCo India</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:srihitak27@gmail.com">srihitak27@gmail.com</a></p>
+        <p>Phone: +91 98490 54745</p>
+        <p class="contact-links">
+            <a href="https://www.linkedin.com/in/srihita-kotagiri-3b2234293/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/srihita27" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+</body>
+</html>
